@@ -48,6 +48,7 @@ img{
     background-position: center;
     display: table;
     margin: 0;
+    clip-path: polygon(50% 0%, 100% 0, 100% 50%, 100% 100%, 55% 100%, 50% 85%, 45% 100%, 0 100%, 0 50%, 0 0);
 }
 .intro .face{
     display: table-cell;
@@ -193,4 +194,58 @@ footer .break , .contact .break{
 
 .rights{
     background-color: #c2c2c2;
+}
+
+@media screen and (max-width: 768px){
+    #menuIcon{
+        margin: 25px;
+    }
+
+    nav ul,nav:active ul{
+        padding: 10px;
+        left: 20px;
+        top: 35px;
+        width: 50%;
+    }
+
+    .content h1{
+        font-size: 250%;
+    }
+
+    .content h6{
+        font-size: 150%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    p{
+      font-size: 100%;  
+    }
+
+    h2{
+        font-size: 200%;
+    }
+    .rightSide{
+        width: 95%;
+        padding: 0 3%;
+        margin: 0 2%;
+    }
+
+    .leftSide{
+        width: 95%;
+        margin: 5 auto;
+    }
+
+    img{
+        padding: 2%;
+        margin: 0 auto;
+    }
+    .image-box{
+        width: 95%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    p{
+        margin: 0 3% 0 0;
+    }
 }
